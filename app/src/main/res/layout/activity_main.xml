@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Network Status"
+        android:id="@+id/b1"
+        android:onClick="Status"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Turn On"
+        android:id="@+id/b2"
+        android:onClick="turnon"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="Bluetooth Turn Off"
+        android:id="@+id/b3"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="Bluetooth Paired Devices"
+        android:id="@+id/b4"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="Discover Bluetooh Devices"
+        android:id="@+id/b5"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="Make Devices Discoverable"
+        android:id="@+id/b6"/>
+
+</LinearLayout>
